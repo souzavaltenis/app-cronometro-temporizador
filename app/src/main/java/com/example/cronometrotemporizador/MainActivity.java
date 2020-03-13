@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void callCronometro(View view){
+        getSupportActionBar().setTitle(R.string.bt_cron);
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.frame_ct, new CronometroFragment())
