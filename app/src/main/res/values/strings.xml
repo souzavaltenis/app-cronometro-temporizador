@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cronometro+Temporizador</string>
+    <string name="app_name">Cronômetro e Temporizador</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -17,4 +17,6 @@
     <string name="textSecs">Segundo(s)</string>
     <string name="btResume">RESUME</string>
 
+    <string name="textTelaInic">Seja Bem Vindo</string>
+    <string name="textTelaInicFuncs">Escolha alguma opção abaixo</string>
 </resources>

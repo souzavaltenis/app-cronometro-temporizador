@@ -15,8 +15,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        callTelaInic();
         btCron = findViewById(R.id.btCron);
         btTemp = findViewById(R.id.btTemp);
+    }
+
+    public void callTelaInic(){
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.frame_ct, new TelaInicialFragment())
+                .commit();
     }
 
     public void callCronometro(View view){
