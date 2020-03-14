@@ -8,7 +8,7 @@
     tools:context=".CronometroFragment">
 
     <Button
-        android:id="@+id/btReset"
+        android:id="@+id/btResetCron"
         android:layout_width="328dp"
         android:layout_height="75dp"
         android:text="@string/btReset"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.606" />
 
     <TextView
-        android:id="@+id/tvTime"
+        android:id="@+id/tvTimeTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tvInicial"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.124" />
 
     <Button
-        android:id="@+id/btStart"
+        android:id="@+id/btStartTemp"
         android:layout_width="328dp"
         android:layout_height="75dp"
         android:text="@string/btStart"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.35" />
 
     <Button
-        android:id="@+id/btStop"
+        android:id="@+id/btStopCron"
         android:layout_width="328dp"
         android:layout_height="75dp"
         android:text="@string/btStop"
@@ -57,5 +57,6 @@
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
+        app:layout_constraintVertical_bias="0.477" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class CronometroFragment extends Fragment {
 
@@ -29,7 +28,7 @@ public class CronometroFragment extends Fragment {
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_cronometro, container, false);
 
-        tv = view.findViewById(R.id.tvTime);
+        tv = view.findViewById(R.id.tvTimeTemp);
         handler = new Handler();
         segundos=0;
         flagBtStart = false;
@@ -43,7 +42,7 @@ public class CronometroFragment extends Fragment {
     }
 
     private void addFunctionBtStart(){
-        Button btStart = view.findViewById(R.id.btStart);
+        Button btStart = view.findViewById(R.id.btStartTemp);
         btStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -56,7 +55,7 @@ public class CronometroFragment extends Fragment {
     }
 
     private void addFunctionBtStop(){
-        Button btStop = view.findViewById(R.id.btStop);
+        Button btStop = view.findViewById(R.id.btStopCron);
         btStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +66,7 @@ public class CronometroFragment extends Fragment {
     }
 
     private void addFunctionBtReset(){
-        Button btReset = view.findViewById(R.id.btReset);
+        Button btReset = view.findViewById(R.id.btResetCron);
         btReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

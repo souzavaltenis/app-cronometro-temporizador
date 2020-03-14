@@ -11,4 +11,10 @@
     <string name="btStop">STOP</string>
     <string name="btReset">RESET</string>
 
+    <string name="textInicCron">Selecione o Tempo</string>
+    <string name="textHora">Hora(s)</string>
+    <string name="textMin">Minutos(s)</string>
+    <string name="textSecs">Segundo(s)</string>
+    <string name="btResume">RESUME</string>
+
 </resources>
